@@ -16,6 +16,9 @@ import About from './pages/About';
 // import Formdata from './pages/Formdata';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+// import RegistrationPage from './pages/RegistrationPage';
+// import MyForm from './pages/MyForm';
+// import Register from './pages/Register';
 // import MapFuction2 from './pages/MapFuction2';
 // import MapFuction2 from './pages/MapFuction2';
 // import Newfile from './pages/Newfile';
@@ -24,9 +27,10 @@ function App() {
   return (
     <div className="App">
       {/* <Hookclass/> */}
+      
       <Router>
         <Routes>
-        {/* <Route path='/' element={<Newfile />} /> */}
+        {/* <Route path='/' element={<Register />} /> */}
 
           <Route path='/' element={<Registration />} />
           <Route path='/Signin' element={<Signin />} />
